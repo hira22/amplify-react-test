@@ -1,12 +1,12 @@
 {
-    "identityPoolName": "myapp77beb2aa_identitypool_77beb2aa",
+    "identityPoolName": "myapp6dd1274a_identitypool_6dd1274a",
     "allowUnauthenticatedIdentities": false,
-    "lambdaLogPolicy": "myapp7_77beb2aa_lambda_log_policy",
-    "openIdLambdaRoleName": "myapp7_77beb2aa_openid_lambda_role",
-    "openIdRolePolicy": "myapp7_77beb2aa_openid_pass_role_policy",
-    "openIdLambdaIAMPolicy": "myapp7_77beb2aa_openid_lambda_iam_policy",
-    "openIdLogPolicy": "myapp7_77beb2aa_openid_lambda_log_policy",
-    "userPoolName": "myapp77beb2aa_userpool_77beb2aa",
+    "lambdaLogPolicy": "myapp6_6dd1274a_lambda_log_policy",
+    "openIdLambdaRoleName": "myapp6_6dd1274a_openid_lambda_role",
+    "openIdRolePolicy": "myapp6_6dd1274a_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "myapp6_6dd1274a_openid_lambda_iam_policy",
+    "openIdLogPolicy": "myapp6_6dd1274a_openid_lambda_log_policy",
+    "userPoolName": "myapp6dd1274a_userpool_6dd1274a",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -14,9 +14,9 @@
     "mfaTypes": [
         "SMS Text Message"
     ],
-    "roleName": "myapp777beb2aa_sns-role",
-    "roleExternalId": "myapp777beb2aa_role_external_id",
-    "policyName": "myapp777beb2aa-sns-policy",
+    "roleName": "myapp66dd1274a_sns-role",
+    "roleExternalId": "myapp66dd1274a_role_external_id",
+    "policyName": "myapp66dd1274a-sns-policy",
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
     "emailVerificationSubject": "Your verification code",
@@ -25,7 +25,7 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [],
-    "userpoolClientName": "myapp777beb2aa_app_client",
+    "userpoolClientName": "myapp66dd1274a_app_client",
     "userpoolClientGenerateSecret": true,
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [
@@ -34,15 +34,15 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "mfaLambdaRole": "myapp777beb2aa_totp_lambda_role",
-    "mfaLambdaLogPolicy": "myapp777beb2aa_totp_lambda_log_policy",
-    "mfaPassRolePolicy": "myapp777beb2aa_totp_pass_role_policy",
-    "mfaLambdaIAMPolicy": "myapp777beb2aa_totp_lambda_iam_policy",
-    "userpoolClientLambdaRole": "myapp777beb2aa_userpoolclient_lambda_role",
-    "userpoolClientLogPolicy": "myapp777beb2aa_userpoolclient_lambda_log_policy",
-    "userpoolClientLambdaPolicy": "myapp777beb2aa_userpoolclient_lambda_iam_policy",
+    "mfaLambdaRole": "myapp66dd1274a_totp_lambda_role",
+    "mfaLambdaLogPolicy": "myapp66dd1274a_totp_lambda_log_policy",
+    "mfaPassRolePolicy": "myapp66dd1274a_totp_pass_role_policy",
+    "mfaLambdaIAMPolicy": "myapp66dd1274a_totp_lambda_iam_policy",
+    "userpoolClientLambdaRole": "myapp66dd1274a_userpoolclient_lambda_role",
+    "userpoolClientLogPolicy": "myapp66dd1274a_userpoolclient_lambda_log_policy",
+    "userpoolClientLambdaPolicy": "myapp66dd1274a_userpoolclient_lambda_iam_policy",
     "userpoolClientSetAttributes": false,
-    "resourceName": "myapp77beb2aa",
+    "resourceName": "myapp6dd1274a",
     "authSelections": "identityPoolAndUserPool",
     "authRoleName": {
         "Ref": "AuthRoleName"
